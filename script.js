@@ -26,10 +26,10 @@ var rock =["Eric Clapton", "Jimi Hendrix", "The Who"];
 
 var genres =[folk, rock];
 
+
 function music () {
 	for (var i=0; i<1;i++) {
 		subGenres(genres[i]);
-		
 	}
 
 }
@@ -39,7 +39,27 @@ function subGenres (anyname) {
 		console.log(anyname[i]);
 	}
 	
-	
 }
 
 music();
+
+
+// Exercise 3
+
+var ask = prompt("Enter Number");
+
+
+
+if (ask < 100) {
+	alert ("Number is less than 100")
+}
+
+else {
+	alert (ask + " is greater than 100")
+}
+
+
+
+
+
+
