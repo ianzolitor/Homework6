@@ -74,6 +74,15 @@ else {
 	alert ("Hi " + ask +", Get off of Ian's computer!");
 }
 
+// Exercise 6
+
+
+var ask = prompt("Enter Name"); {
+	alert ("Your name is" + " " +ask)
+}
+
+
+
 
 
 
