@@ -59,6 +59,24 @@ else {
 }
 
 
+// Exercise 4
+
+
+// Exercise 5
+
+var ask = prompt("Enter Name");
+
+if (ask == "Ian"){
+	alert ("Hi Ian");
+}
+
+else {
+	alert ("Hi " + ask +", Get off of Ian's computer!");
+}
+
+
+
+
 
 
 
