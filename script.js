@@ -81,9 +81,17 @@ var ask = prompt("Enter Name"); {
 	alert ("Your name is" + " " +ask)
 }
 
+// Exercise 7
 
 
+var consoleItem = ["one,two,three,four,five"]
 
+function sendConsole () {
+	for (var i=0; i<consoleItem.length; i++) {
+		console.log(consoleItem[i]);
+	}
+
+}
 
 
 
