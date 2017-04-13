@@ -87,11 +87,35 @@ var ask = prompt("Enter Name"); {
 var consoleItem = ["one,two,three,four,five"]
 
 function sendConsole () {
-	for (var i=0; i<consoleItem.length; i++) {
+	for (var i=0; i < consoleItem.length; i++) {
 		console.log(consoleItem[i]);
 	}
 
 }
+
+
+// Exercise 8
+
+var ask = prompt("Enter 'Door1', 'Door2', or 'Door3'");
+
+
+
+if (ask == "Door1") {
+	alert ("You win nothing. Sorry")
+}
+
+if (ask=="Door2") {
+	alert ("You win three million dollars cash!")
+}
+
+if (ask=="Door3") {
+	alert (ask + " You win...A NEW CAR!")
+}
+
+
+
+
+
 
 
 
